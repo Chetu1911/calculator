@@ -1,0 +1,128 @@
+
+    body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #b8c0ff;
+    text-align: center;
+    color:black; 
+}
+
+h1{
+	color: black;
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+
+
+#calculator{
+	width: 330px;
+	height: 520px;
+	background-color: #000000;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	color: white;
+	border-radius: 0px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 30px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+	font-size: 20px;
+}
+
+
+.operator{
+	background-color: darkorange;
+	font-size: 30px;
+}
+.operator:hover{
+	box-shadow:0 0  2px 1px white;
+	background-color: darkorange;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.empty{
+	background-color: rgb(59, 59, 59);
+	color: white;
+	border-radius: 50px;
+	font-size: 30px;
+}
+.empty:hover{
+	background-color:rgb(81, 75, 75);
+	color: rgb(255, 255, 255);
+	transition: 0.5s;
+	box-shadow: 1px 1px 1px black;
+
+}
+.number {
+	background-color: rgb(59, 59, 59);
+	color: white;
+	border-radius: 50px;
+	font-size: 25px;
+}
+.number:hover{
+	background-color:rgb(81, 75, 75);
+	color: rgb(255, 255, 255);
+	transition: 0.5s;
+	box-shadow: 1px 1px 1px black;
+
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: darkorange;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: darkorange;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: darkorange;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: darkorange;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color:darkorange;
+}
